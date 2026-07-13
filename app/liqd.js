@@ -241,12 +241,17 @@
       </header>
 
       <section class="verdict" aria-label="Recommendation summary">
-        <div class="cell"><div class="k">Rating</div><div class="v rating-${badgeClass(r.rating)}">${esc(r.rating)}</div></div>
-        <div class="cell"><div class="k">Price target</div><div class="v">${esc(r.priceTarget || "—")}</div></div>
-        <div class="cell"><div class="k">Last price</div><div class="v">${esc(r.currentPrice || "—")}</div></div>
-        <div class="cell"><div class="k">Upside</div><div class="v ${upsideClass(r.upside)}">${esc(r.upside || "—")}</div></div>
-        <div class="cell"><div class="k">Conviction</div><div class="v">${esc(r.conviction || "—")}</div></div>
-        <div class="cell"><div class="k">Sizing</div><div class="v">${esc(r.positionSize || "—")}</div></div>
+        ${[
+          ["Rating", r.rating, `rating-${badgeClass(r.rating)}`],
+          ["Price target", r.priceTarget, ""],
+          ["Last price", r.currentPrice, ""],
+          ["Upside", r.upside, upsideClass(r.upside)],
+          ["Conviction", r.conviction, ""],
+          ["Sizing", r.positionSize, ""],
+        ].map(([k, v, cls]) => {
+          const val = v == null || v === "" ? "—" : String(v);
+          return `<div class="cell"><div class="k">${k}</div><div class="v ${cls}${val.length > 8 ? " long" : ""}">${esc(val)}</div></div>`;
+        }).join("")}
       </section>
 
       ${segs.length ? `

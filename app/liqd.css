@@ -246,7 +246,8 @@ main { flex: 1; padding: 44px 0 72px; }
 .verdict .cell { padding: 18px 18px 15px; border-right: 1px solid var(--hairline-soft); }
 .verdict .cell:last-child { border-right: none; }
 .verdict .k { font-size: 9.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-3); }
-.verdict .v { font-size: 22px; font-variant-numeric: tabular-nums; margin-top: 4px; font-family: var(--serif); letter-spacing: 0.02em; }
+.verdict .v { font-size: 22px; font-variant-numeric: tabular-nums; margin-top: 4px; font-family: var(--serif); letter-spacing: 0.02em; overflow-wrap: anywhere; }
+.verdict .v.long { font-size: 15px; line-height: 1.4; padding-top: 4px; }
 .verdict .v.rating-buy, .verdict .v.rating-overweight { color: var(--buy); }
 .verdict .v.rating-hold, .verdict .v.rating-neutral { color: var(--gold-bright); }
 .verdict .v.rating-sell, .verdict .v.rating-underweight { color: var(--sell); }
