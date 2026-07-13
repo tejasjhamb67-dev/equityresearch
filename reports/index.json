@@ -1,0 +1,38 @@
+{
+  "generated": "2026-07-13T03:56:09.127Z",
+  "count": 2,
+  "reports": [
+    {
+      "id": "aapl-2024-09-10",
+      "file": "aapl-2024-09-10.json",
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "sector": "Technology",
+      "reportType": "Company",
+      "rating": "BUY",
+      "conviction": "High",
+      "priceTarget": "$250",
+      "currentPrice": "$229",
+      "upside": "+9.2%",
+      "timeframe": "12 months",
+      "date": "2024-09-10",
+      "thesis": "AI-driven iPhone 16 product cycle and 12% services growth underpin a premium-ecosystem moat with balanced risk-reward."
+    },
+    {
+      "id": "hood-2024-09-10",
+      "file": "hood-2024-09-10.json",
+      "ticker": "HOOD",
+      "company": "Hims & Hers Health, Inc.",
+      "sector": "Healthcare",
+      "reportType": "Company",
+      "rating": "HOLD",
+      "conviction": "Low",
+      "priceTarget": "$42",
+      "currentPrice": "$45",
+      "upside": "-6.7%",
+      "timeframe": "12 months",
+      "date": "2024-09-10",
+      "thesis": "69% revenue growth offset by FTC regulatory overhang, heavy insider selling, and GLP-1 dependency; unattractive risk-adjusted setup."
+    }
+  ]
+}
