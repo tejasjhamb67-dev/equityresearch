@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-13T03:59:18.917Z",
-  "count": 5,
+  "generated": "2026-07-13T04:06:35.020Z",
+  "count": 8,
   "reports": [
     {
       "id": "fcx-2026-07-13",
@@ -35,6 +35,22 @@
       "thesis": "Selective overweight: structural copper deficit and central-bank gold demand outweigh a correcting gold tape and a deteriorating iron ore complex. Own copper producers first, quality gold second, avoid bulk-commodity pure plays."
     },
     {
+      "id": "mu-2026-07-13",
+      "file": "mu-2026-07-13.json",
+      "ticker": "MU",
+      "company": "Micron Technology, Inc.",
+      "sector": "Semiconductors",
+      "reportType": "Company",
+      "rating": "BUY",
+      "conviction": "Medium",
+      "priceTarget": "$1,350",
+      "currentPrice": "$1,145.28",
+      "upside": "+17.9%",
+      "timeframe": "12 months",
+      "date": "2026-07-13",
+      "thesis": "The memory supercycle made visible: revenue up ~300% YoY to $41.5B, a $50B next-quarter guide, and HBM effectively sold out on ~$100B of binding multi-year contracts — but memory is the highest-beta seat in the sector, so size it like the cyclical it remains."
+    },
+    {
       "id": "nem-2026-07-13",
       "file": "nem-2026-07-13.json",
       "ticker": "NEM",
@@ -49,6 +65,38 @@
       "timeframe": "12 months",
       "date": "2026-07-13",
       "thesis": "The world's largest gold miner is printing record free cash flow ($3.1B in Q1 alone) at $4,100/oz gold, yet trades ~31% below the $139 street consensus after the bullion correction — the pullback is the entry."
+    },
+    {
+      "id": "nvda-2026-07-13",
+      "file": "nvda-2026-07-13.json",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "reportType": "Company",
+      "rating": "BUY",
+      "conviction": "High",
+      "priceTarget": "$280",
+      "currentPrice": "$210.57",
+      "upside": "+33.0%",
+      "timeframe": "12 months",
+      "date": "2026-07-13",
+      "thesis": "Growing revenue 85% at a $5.1T market cap with China embedded at zero, NVIDIA is guiding $91B for the July quarter while the stock sits 11% below its high — the street's $301.62 consensus implies the market still hasn't paid for the guidance already given."
+    },
+    {
+      "id": "semis-2026-07-13",
+      "file": "semis-2026-07-13.json",
+      "ticker": "SEMIS",
+      "company": "Semiconductors — Sector Note",
+      "sector": "Semiconductors",
+      "reportType": "Sector",
+      "rating": "OVERWEIGHT",
+      "conviction": "Medium",
+      "priceTarget": "Selective",
+      "currentPrice": "—",
+      "upside": "Compute > Memory > Analog",
+      "timeframe": "12 months",
+      "date": "2026-07-13",
+      "thesis": "The AI supercycle is real and measurable — industry revenue tracking toward $1.29T in 2026 (+53%) on ~$600B of hyperscaler capex — but after a ~90% YTD run in the SOXX the entry demands selectivity: own the compute monopolist (NVDA) and sold-out HBM memory (MU), respect the digestion risk."
     },
     {
       "id": "aapl-2024-09-10",
